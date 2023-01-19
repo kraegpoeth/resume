@@ -1,0 +1,59 @@
+baseURL: http://krgpth.com/
+languageCode: en-us
+title: krgpth
+theme: hugo-coder
+
+params:
+  author: Kasper Krægpøth
+  info: Senior frontend developer
+  description: John Doe's personal website
+  keywords: 'frontend,developer,personal,resume'
+  avatarurl: images/avatar.jpg
+  favicon_32: /img/favicon-32x32.png
+  favicon_16: /img/favicon-16x16.png
+  since: 2023
+  enableTwemoji: true
+  colorScheme: auto
+  hidecolorschemetoggle: false
+  # customCSS:
+  #   - css/custom.css
+  # customSCSS:
+  #   - scss/custom.scss
+  # customJS:
+  #   - js/custom.js
+  social:
+    - name: Github
+      icon: fa fa-github fa-2x
+      weight: 1
+      url: 'https://github.com/kraegpoeth/'
+    - name: Gitlab
+      icon: fa fa-gitlab fa-2x
+      weight: 2
+      url: 'https://gitlab.com/kraegpoeth/'
+    - name: Twitter
+      icon: fa fa-twitter fa-2x
+      weight: 3
+      url: 'https://twitter.com/krgpth/'
+    - name: Linkedin
+      icon: fa fa-linkedin fa-2x
+      weight: 3
+      url: 'https://linkedin.com/kraegpoeth/'
+taxonomies:
+  category: categories
+  series: series
+  tag: tags
+  author: authors
+menu:
+  main:
+    - name: About
+      weight: 2
+      url: about/
+    - name: Resume
+      weight: 1
+      url: cv/
+    - name: Skills
+      weight: 1
+      url: skills/
+    - name: Contact
+      weight: 2
+      url: contact/
