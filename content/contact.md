@@ -5,3 +5,4 @@ slug: contact
 
 kraegpoeth@gmail.com
 Follow me, @krgpth.
+not done
