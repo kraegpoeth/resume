@@ -48,7 +48,7 @@ menu:
     - name: About
       weight: 2
       url: about/
-    - name: Resume
+    - name: Resumé
       weight: 1
       url: cv/
     - name: Skills

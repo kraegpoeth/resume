@@ -55,9 +55,6 @@ slug: cv
   - Typescript, ReactNative, Redux, GraphQL, REST
 - 2017: PlantJammer PWA
   - React, Redux, REST
-    My Cool Side Project
-    : For items which don't have a clear time ordering, a definition
-    list can be used to have named items.
 
 ## Activities
 
