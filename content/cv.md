@@ -2,8 +2,6 @@
 slug: cv
 ---
 
-[ kraegpoeth@gmail.com ] [+46 076 166 11 20]
-
 ## Education
 
 ---

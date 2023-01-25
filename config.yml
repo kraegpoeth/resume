@@ -1,16 +1,16 @@
 baseURL: https://kraegpoeth.github.io
 languageCode: en-us
-title: krgpth
+title: kraegpoeth
 theme: hugo-coder
 
 params:
-  author: Kasper Krægpøth
+  author: Kasper Kraegpoeth
   info: Senior frontend developer
-  description: John Doe's personal website
+  description: krgpth personal website
   keywords: 'frontend,developer,personal,resume'
-  avatarurl: images/avatar.jpg
-  favicon_32: /img/favicon-32x32.png
-  favicon_16: /img/favicon-16x16.png
+  avatarurl: https://avatars.githubusercontent.com/u/2144549?s=400&v=4
+  favicon_32: https://avatars.githubusercontent.com/u/2144549?s=32&v=4
+  favicon_16: https://avatars.githubusercontent.com/u/2144549?s=64&v=4
   since: 2023
   enableTwemoji: true
   colorScheme: auto
@@ -29,7 +29,7 @@ params:
     - name: Gitlab
       icon: fa fa-gitlab fa-2x
       weight: 2
-      url: 'https://gitlab.com/kraegpoeth/'
+      url: 'https://gitlab.com/kraegpoeth1/'
     - name: Twitter
       icon: fa fa-twitter fa-2x
       weight: 3
@@ -37,7 +37,7 @@ params:
     - name: Linkedin
       icon: fa fa-linkedin fa-2x
       weight: 3
-      url: 'https://linkedin.com/kraegpoeth/'
+      url: 'https://linkedin.com/in/kraegpoeth/'
 taxonomies:
   category: categories
   series: series
