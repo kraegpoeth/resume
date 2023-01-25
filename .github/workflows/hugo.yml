@@ -1,4 +1,4 @@
-name: Push to GitHub Pages on push to main
+name: Push to GitHub Pages on push to master
 on:
   push:
     branches:
@@ -19,5 +19,5 @@ jobs:
           TARGET_REPO: kraegpoeth/kraegpoeth.github.io
           TARGET_BRANCH: master
           TOKEN: ${{ secrets.GH_TOKEN }}
-          HUGO_ARGS: '-t academic'
+          HUGO_ARGS: '-t PaperMod'
           CNAME: kraegpoeth.github.io
