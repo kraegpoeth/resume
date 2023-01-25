@@ -1,24 +1,24 @@
-name: Push to GitHub Pages on push to master
+name: Publish Site
+
 on:
   push:
     branches:
       - master
 
 jobs:
-  build:
-    name: Deploy
+  build-deploy:
     runs-on: ubuntu-latest
+
     steps:
-      - name: Checkout code
-        uses: actions/checkout@v1
+      - name: Checkout Repo
+        uses: actions/checkout@master
         with:
           submodules: true
-
-      - name: Deploy the site
-        uses: jpopelka/hugo-deploy-gh-pages@main
-        env:
-          HUGO_VERSION: 0.110.0
-          TARGET_REPO: kraegpoeth/kraegpoeth.github.io
-          TARGET_BRANCH: master
-          TOKEN: ${{ secrets.GH_TOKEN }}
-          CNAME: kraegpoeth.github.io
+      - name: Publish Site
+        uses: chabad360/hugo-gh-pages@master
+        with:
+          githubToken: ${{ secrets.GH_TOKEN }}
+          repo: kraegpoeth/kraegpoeth.github.io
+          hugoVersion: 0.110.0
+          siteDir: /github/workspace/public
+          branch: master
