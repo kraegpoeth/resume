@@ -21,3 +21,4 @@ jobs:
           repo: kraegpoeth/kraegpoeth.github.io
           hugoVersion: 0.110.0
           siteDir: /github/workspace/public
+          branch: master
