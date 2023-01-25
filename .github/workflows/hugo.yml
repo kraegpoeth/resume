@@ -15,7 +15,7 @@ jobs:
           submodules: true
 
       - name: Deploy the site
-        uses: jpopelka/hugo-deploy-gh-pages
+        uses: jpopelka/hugo-deploy-gh-pages@main
         env:
           HUGO_VERSION: 0.110.0
           TARGET_REPO: kraegpoeth/kraegpoeth.github.io
