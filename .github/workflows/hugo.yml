@@ -2,7 +2,7 @@ name: Push to GitHub Pages on push to main
 on:
   push:
     branches:
-      - main
+      - master
 
 jobs:
   build:
@@ -15,9 +15,9 @@ jobs:
       - name: Deploy the site
         uses: benmatselby/hugo-deploy-gh-pages@main
         env:
-          HUGO_VERSION: 0.88.0
-          TARGET_REPO: benmatselby/benmatselby.github.io
-          TARGET_BRANCH: main
-          TOKEN: ${{ secrets.TOKEN }}
+          HUGO_VERSION: 0.110.0
+          TARGET_REPO: kraegpoeth/kraegpoeth.github.io
+          TARGET_BRANCH: master
+          TOKEN: ${{ secrets.GH_TOKEN }}
           HUGO_ARGS: '-t academic'
-          CNAME: benmatselby.github.io
+          CNAME: kraegpoeth.github.io
