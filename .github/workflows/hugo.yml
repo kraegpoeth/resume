@@ -19,5 +19,4 @@ jobs:
           TARGET_REPO: kraegpoeth/kraegpoeth.github.io
           TARGET_BRANCH: master
           TOKEN: ${{ secrets.GH_TOKEN }}
-          HUGO_ARGS: '-t Coder'
           CNAME: kraegpoeth.github.io
