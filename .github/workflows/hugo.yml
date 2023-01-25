@@ -11,6 +11,8 @@ jobs:
     steps:
       - name: Checkout code
         uses: actions/checkout@v1
+        with:
+          submodules: true
 
       - name: Deploy the site
         uses: benmatselby/hugo-deploy-gh-pages@main
@@ -19,5 +21,4 @@ jobs:
           TARGET_REPO: kraegpoeth/kraegpoeth.github.io
           TARGET_BRANCH: master
           TOKEN: ${{ secrets.GH_TOKEN }}
-          HUGO_ARGS: '-t hugo-coder'
           CNAME: kraegpoeth.github.io
