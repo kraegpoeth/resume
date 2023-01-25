@@ -1,24 +1,31 @@
-name: Publish Site
+name: Github Pages
 
 on:
   push:
     branches:
-      - master
+      - main
+  pull_request:
 
 jobs:
-  build-deploy:
-    runs-on: ubuntu-latest
-
+  deploy:
+    runs-on: ubuntu-20.04
     steps:
-      - name: Checkout Repo
-        uses: actions/checkout@master
+      - uses: actions/checkout@v2
         with:
-          submodules: true
-      - name: Publish Site
-        uses: chabad360/hugo-gh-pages@master
+          submodules: true  # Fetch Hugo themes (true OR recursive)
+          fetch-depth: 0    # Fetch all history for .GitInfo and .Lastmod
+
+      - name: Setup Hugo
+        uses: peaceiris/actions-hugo@v2
         with:
-          githubToken: ${{ secrets.GH_TOKEN }}
-          repo: kraegpoeth/kraegpoeth.github.io
-          hugoVersion: 0.110.0
-          siteDir: /github/workspace/public
-          branch: master
+          hugo-version: '0.110.0'
+
+      - name: Build
+        run: hugo --minify
+
+      - name: Deploy
+        uses: peaceiris/actions-gh-pages@v3
+        with:
+          deploy_key: ${{ secrets.GH_TOKEN }}
+          external_repository: kraegpoeth/kraegpoeth.github.io
+          publish_dir: ./public
