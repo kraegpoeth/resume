@@ -4,49 +4,36 @@
     <title>krgpth</title>
     <link>https://kraegpoeth.github.io/</link>
     <description>Recent content on krgpth</description>
-    <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language><atom:link href="https://kraegpoeth.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <atom:link href="https://kraegpoeth.github.io/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title></title>
       <link>https://kraegpoeth.github.io/cv/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
       <guid>https://kraegpoeth.github.io/cv/</guid>
-      <description>[ kraegpoeth@gmail.com ] [+46 076 166 11 20]
-Education Link to heading 2012-2014 Copenhagen Business School
-Master of Science in Applied Economics and Finance. Master thesis: Quantitative Value Investing. H2 2011: National University of Singapore
-Bachelor of Business Administration. Exchange at 5th semester. 2009-2012: Copenhagen Business School
-BSc in Economics and Business Administration. GPA: 10,0 / 12. Experience Link to heading 2022-2023: Access privilege platform, Senior Consultant Responsible mapping tech-debt and built out the platform, servicing all Danish company owners and their company&amp;rsquo;s access rights to all digital mail from the government.</description>
+      <description>Education Link to heading 2012-2014 Copenhagen Business School&#xA;Master of Science in Applied Economics and Finance. Master thesis: Quantitative Value Investing. H2 2011: National University of Singapore&#xA;Bachelor of Business Administration. Exchange at 5th semester. 2009-2012: Copenhagen Business School&#xA;BSc in Economics and Business Administration. GPA: 10,0 / 12. Experience Link to heading 2022-2023: Access privilege platform, Senior Consultant Responsible mapping tech-debt and built out the platform, servicing all Danish company owners and their company&amp;rsquo;s access rights to all digital mail from the government.</description>
     </item>
-    
     <item>
       <title>About</title>
       <link>https://kraegpoeth.github.io/about/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
       <guid>https://kraegpoeth.github.io/about/</guid>
-      <description>Self-taught programmer in everything javascript and typescript. Strong analytical thinker with good communication and interpersonal skills. I prefer top-down holistic thinking and communication as it allows me to truly understand what the end-user needs and why.
-I love helping and seeing other people grow but also get a kick out of spending 8 hours straight in my editor. Exploring and creating ideas and code, from frontend to philosophy, is my passion.</description>
+      <description>Self-taught programmer in everything javascript and typescript. Strong analytical thinker with good communication and interpersonal skills. I prefer top-down holistic thinking and communication as it allows me to truly understand what the end-user needs and why.&#xA;I love helping and seeing other people grow but also get a kick out of spending 8 hours straight in my editor. Exploring and creating ideas and code, from frontend to philosophy, is my passion.</description>
     </item>
-    
     <item>
       <title>Contact</title>
       <link>https://kraegpoeth.github.io/contact/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
       <guid>https://kraegpoeth.github.io/contact/</guid>
-      <description>kraegpoeth@gmail.com
-Follow me, @krgpth. alk</description>
+      <description>Feel free to contact me @ hi@krgpth.com</description>
     </item>
-    
     <item>
       <title>Skills</title>
       <link>https://kraegpoeth.github.io/skills/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
       <guid>https://kraegpoeth.github.io/skills/</guid>
       <description> Languages Link to heading JavaScript TypeScript HTML CSS Yaml, Toml, Json etc Frontend Frameworks Link to heading React ReactNative Vue Svelte Next.js Hugo Backend And DB Link to heading NodeJs Postgresql FaunaDB (FQL) Test tools Link to heading Jest Cypress Storybook Playwright Other Link to heading IDE : NeoVim OS : OSx (Mac) Git : Github, Gitlab </description>
     </item>
-    
   </channel>
 </rss>

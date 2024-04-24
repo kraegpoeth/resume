@@ -4,7 +4,8 @@
     <title>Authors on krgpth</title>
     <link>https://kraegpoeth.github.io/authors/</link>
     <description>Recent content in Authors on krgpth</description>
-    <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language><atom:link href="https://kraegpoeth.github.io/authors/index.xml" rel="self" type="application/rss+xml" />
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <atom:link href="https://kraegpoeth.github.io/authors/index.xml" rel="self" type="application/rss+xml" />
   </channel>
 </rss>
