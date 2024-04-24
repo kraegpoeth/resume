@@ -4,4 +4,4 @@ slug: contact
 ---
 
 Feel free to contact me @
-kraegpoeth@gmail.com
+hi@krgpth.com

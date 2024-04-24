@@ -7,7 +7,7 @@ params:
   author: Kasper Krægpøth
   info: Senior frontend developer
   description: krgpth portfolio
-  keywords: 'frontend,developer,personal,resume'
+  keywords: "frontend,developer,personal,resume"
   avatarurl: /img/avatar.jpeg
   favicon_32: /img/favicon/32.png
   favicon_16: /img/favicon/64.png
@@ -22,18 +22,22 @@ params:
   # customJS:
   #   - js/custom.js
   social:
+    - name: Website
+      icon: fa fa-globe fa-2x
+      weight: 1
+      url: "https://krgpth.com/"
     - name: Github
       icon: fa fa-github fa-2x
       weight: 1
-      url: 'https://github.com/kraegpoeth/'
+      url: "https://github.com/kraegpoeth/"
     - name: Gitlab
       icon: fa fa-gitlab fa-2x
       weight: 2
-      url: 'https://gitlab.com/kraegpoeth1/'
+      url: "https://gitlab.com/kraegpoeth1/"
     - name: Linkedin
       icon: fa fa-linkedin fa-2x
       weight: 3
-      url: 'https://linkedin.com/in/kraegpoeth/'
+      url: "https://linkedin.com/in/kraegpoeth/"
 taxonomies:
   category: categories
   series: series
