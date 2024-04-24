@@ -1,2 +1,4 @@
 deployment
 deployment.pub
+
+**/*.Ds_Store
